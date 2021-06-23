@@ -1,19 +1,24 @@
 
 const service = require("../service/service")
 
+//importing middleware validator
+const userInput  = require("../middleware/uservalidator")
+
 class UserController {
-   registerUser = (req, res) => {
+   
+  registerUser = (req, res) => {
       try {
-        //Object for the new user data
-        const newUser = {
-          firstName: req.body.firstName,
-          lastName: req.body.lastName,
-          email: req.body.email,
-          password: req.body.password,
-        };
- 
+        const userInputValidation = userInput.validate(req.body);
+        if (userInputValidation.error) {
+          return res.status(400).send({
+            success: false,
+            message: userInputValidation.error.details[0].message,                   
+            data: req.body,
+          });
+        }
+       
         //calling method to add new user data
-        service.registerNewUser(newUser, (err, data) => {
+        service.registerNewUser(req.body, (err, data) => {
           return err
             ? res.status(500).send({
                 success: false,
