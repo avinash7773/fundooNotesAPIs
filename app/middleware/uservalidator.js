@@ -1,3 +1,23 @@
+
+/**
+ * Execution :  1. Default node with npm   cmd> npm server.js
+ *              2. If nodemon installed    cmd> npm start
+ * 
+ * Purpose    :  Validation Input User property
+ * 
+ * @description:
+ * 
+ * @file      : uservalidator.js
+ * 
+ * @module    :
+ * 
+ * @author    : Avinash Jadhav
+ * 
+ * @version   :
+ * 
+ * @since     : 15-06-2021
+ ************************************************************************************************/
+
 //importing joi validator
 const Joi = require("@hapi/joi");
 
@@ -20,6 +40,7 @@ const userInput  = Joi.object({
                 .pattern(new RegExp("^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})"))
                 .required()
 })
+
 
 module.exports = userInput;
 

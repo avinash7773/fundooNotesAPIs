@@ -1,13 +1,41 @@
+/**
+ * Execution :  1. Default node with npm   cmd> npm server.js
+ *              2. If nodemon installed    cmd> npm start
+ * 
+ * Purpose    :  controlles the operation of user registration
+ * 
+ * @description: 
+ * 
+ * @file       : controller.js
+ * 
+ * @overview   : controll user registration 
+ * 
+ * @module     : It is for new user registration
+ * 
+ * @author     : Avinash Jadhav
+ * 
+ * @version    :
+ * 
+ * @since      : 15-06-2021 
+ *********************************************************************************************/
 
+//import servicess
 const service = require("../service/service")
 
 //importing middleware validator
 const userInput  = require("../middleware/uservalidator")
 
 class UserController {
-   
-  registerUser = (req, res) => {
+  
+  /**
+   * 
+   * @param {*} req express property
+   * @param {*} res express property
+   * @returns http response status and object
+   */
+   registerUser = (req, res) => {
       try {
+        //Validate Incoming user property
         const userInputValidation = userInput.validate(req.body);
         if (userInputValidation.error) {
           return res.status(400).send({
@@ -37,8 +65,24 @@ class UserController {
         });
       }
     };
+
+    //login user
+    loginUser(req, res) {
+      const userCredentials = {
+        email: req.body.email,
+        password: req.body.password,
+      };
+ 
+      //calling a function to login user
+      service.userLogIn(userCredentials, (err, data) => {
+        return err
+          ? res.status(400).send({ success: false, message: err })
+          : res.status(200).send({ success: true, message: 'Log in Successfully!!!!', data});
+      });
+    }
 }
 
+//Exporting class
 module.exports = new UserController();
 
 

@@ -1,19 +1,49 @@
+/**
+ * Execution : 1. Default node with npm   cmd> npm server.js
+ *             2. If nodemon installed   cmd> npm start
+ * 
+ * Purpose : Starting point of fundooNotesAPI
+ * 
+ * @description :
+ * 
+ * @file : server.js
+ * 
+ * @overview : server setup
+ * 
+ * @module : It is necessary to run fundooNotesAPI
+ * 
+ * @author : Avinash Jadhav <javinash228@gmail.com>
+ * 
+ * @version :
+ * 
+ * @since : 15-06-2021
+ * 
+ * *******************************************************************************************/
+
+//Import express package
 const express = require("express");
-const bodyParser = require("body-parser");
 
 //database connection
-require("./db/conn")
+require("./config/database.config")
 
 //create express app
 const app = express();
 
-app.use(bodyParser.urlencoded({extended:true}))
+//import dotenv
+require("dotenv").config();
 
-app.use(bodyParser.json())
+const Port = process.env.PORT
 
+//Parse request of content-type - application/x-www-form-urlencoded
+app.use(express.urlencoded({extended:true}))
+
+//// Parse request of content-type - application/json
+app.use(express.json())
+
+//calling routes
 require("./app/routes/routes")(app)
 
-//listening form port
-app.listen(3000, (req, res) => {
+//listening  port 3000
+app.listen(Port, (req, res) => {
     console.log("listening form port 3000")
 })
