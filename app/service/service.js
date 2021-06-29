@@ -44,15 +44,17 @@ class ServiceClass {
 
     //login user
     userLogIn(credential, callback) {
-      userSchema.loginUser(credential,(err,data) => {
-        if(err) {
-          return callback(err, null)
-        }
-        else if(!Helper.passwordCheck(credential.password, data.password)) {
-          return callback("Wrong password", null)
-        }
-        return callback(null, data)
-      })
+        userSchema.loginUser(credential,(err,data) => {
+          if(err) {
+            return callback(err, null)
+          }
+          else if(!Helper.passwordCheck(credential.password, data.password)) {
+            return callback("Incorrect password", null)
+          }
+    
+        return callback(null, Helper.generateToken(credential)) 
+
+    })
     }
 }
 

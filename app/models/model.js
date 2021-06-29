@@ -33,20 +33,25 @@ const userSchema =  new mongoose.Schema({
     firstName : {
                 type : String,
                 required : true,
-                validator : "^[A-Z]{1}[A-Za-z]{2,}"},
+                validator : "^[A-Z]{1}[A-Za-z]{2,}"
+              },
     lastName : {
                 type : String,
                 required : true,
-                validator : "^[A-Z]{1}[A-Za-z]{2,}"},
+                validator : "^[A-Z]{1}[A-Za-z]{2,}"
+              },
     email    : {   
                 type : String,
                 required : true,
-                validator : "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$" },
+                unique : true,
+                validator : "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$" 
+              },
     password : {
                 type : String,
                 required : true,
-                validator : "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})"},
-               });
+                validator : "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})"
+              },
+    });
 
   //function for making hash password        
   userSchema.pre('save', function(next) {
@@ -56,7 +61,15 @@ const userSchema =  new mongoose.Schema({
       this.password = hashPassword ;
       next();
     })
-  })
+  })  
+
+//comparing passwords for the authentication
+userSchema.methods.comparePasswords = (userPassword, callback) => {
+  console.log("yu are in schema password")
+  bcrypt.compare(userPassword, this.password, (err, matchPassword) => {
+    return err ? callback(err, null) : callback(null, matchPassword)
+  } )
+}
 
 const Schema = mongoose.model('userSchemaModel',userSchema);
 
@@ -84,7 +97,7 @@ class RegisterUser{
       } catch (err) {
         return callback(err, null);
       }
-    };
+    }; 
 
     //login user
         loginUser(credential, callback) {
