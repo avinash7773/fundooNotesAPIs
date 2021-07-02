@@ -32,6 +32,6 @@ module.exports = (app) => {
     //Registration API
     app.post('/register', Controller.registerUser);
 
-    app.post('/login', Controller.loginUser);
+    app.post('/Login', Controller.loginUser);
 
 }

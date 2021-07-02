@@ -51,8 +51,9 @@ class ServiceClass {
           else if(!Helper.passwordCheck(credential.password, data.password)) {
             return callback("Incorrect password", null)
           }
-    
-        return callback(null, Helper.generateToken(credential)) 
+          
+        var token = Helper.generateToken(credential)
+        return callback(null, token) 
 
     })
     }

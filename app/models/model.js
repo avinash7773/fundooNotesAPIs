@@ -63,14 +63,6 @@ const userSchema =  new mongoose.Schema({
     })
   })  
 
-//comparing passwords for the authentication
-userSchema.methods.comparePasswords = (userPassword, callback) => {
-  console.log("yu are in schema password")
-  bcrypt.compare(userPassword, this.password, (err, matchPassword) => {
-    return err ? callback(err, null) : callback(null, matchPassword)
-  } )
-}
-
 const Schema = mongoose.model('userSchemaModel',userSchema);
 
 class RegisterUser{

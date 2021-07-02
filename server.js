@@ -29,6 +29,12 @@ require("./config/database.config")
 //create express app
 const app = express();
 
+//importing swagger
+const swaggerUI = require("swagger-ui-express")
+const swaggerDocs = require("./swagger/swagger.json")
+
+app.use('/fundooNotesAPI', swaggerUI.serve, swaggerUI.setup(swaggerDocs));
+
 //import dotenv
 require("dotenv").config();
 
