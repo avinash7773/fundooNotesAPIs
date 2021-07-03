@@ -53,3 +53,6 @@ require("./app/routes/routes")(app)
 app.listen(Port, (req, res) => {
     console.log("listening form port 3000")
 })
+
+
+module.exports = app

@@ -1,0 +1,42 @@
+{
+    "registerUserPass":{
+      "firstName":"Vivek",
+      "lastName":"Patil",
+      "email":"patil500@gmail.com",
+      "password":"Vivek@1234"
+    },
+
+    "registerUserFirstNameFail1":{
+        "firstName":"vivek",
+        "lastName":"Patil",
+        "email":"patil@gmail.com",
+        "password":"Vivek@123"
+      },
+
+      
+    "registerUserLastNameFail2":{
+      "firstName":"Vivek",
+      "lastName":"patil",
+      "email":"patil@gmail.com",
+      "password":"Vivek@123"
+    },
+    "registerUserEmailFail":{
+      "firstName":"Vivek",
+      "lastName":"Patil",
+      "email":"patilgmail.com",
+      "password":"Vivek@123"
+    },
+
+    "userLoginPass": {
+      "email":"patil500@gmail.com",
+      "password":"Vivek@1234"
+    },
+    "userLoginWrongEmailFail": {
+      "email":"patil@gmail.com",
+      "password":"Vivek@1234"
+    },
+    "userLoginWrongPasswordFail": {
+      "email":"patil500@gmail.com",
+      "password":"vivek@1234"
+    }
+}
