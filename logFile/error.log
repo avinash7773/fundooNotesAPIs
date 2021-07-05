@@ -1,0 +1,3 @@
+{"message":"\"firstName\" with value \"avinash\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-05T07:43:13.394Z"}
+{"message":"\"email\" with value \"avinashgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-05T07:43:39.449Z"}
+{"message":"\"email\" with value \"avinashgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-05T07:44:10.915Z"}

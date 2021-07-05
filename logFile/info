@@ -1,5 +1,0 @@
-{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-05T07:13:56.153Z"}
-{"message":"\"firstName\" with value \"avinash\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-05T07:14:01.991Z"}
-{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-05T07:14:58.611Z"}
-{"message":"\"firstName\" with value \"avinash\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-05T07:15:03.471Z"}
-{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-05T07:20:30.426Z"}

@@ -1,2 +1,0 @@
-{"message":"\"firstName\" with value \"avinash\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-05T07:14:01.992Z"}
-{"message":"\"firstName\" with value \"avinash\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-05T07:15:03.471Z"}
