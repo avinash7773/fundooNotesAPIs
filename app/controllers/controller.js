@@ -23,21 +23,18 @@
 const service = require("../service/service")
 
 //importing middleware validator
-const userInput  = require("../middleware/uservalidator")
+const userInput  = require("../middleware/uservalidator");
+const logger = require("../../config/logger");
 
 class UserController {
-  
-  /**
-   * 
-   * @param {*} req express property
-   * @param {*} res express property
-   * @returns http response status and object
-   */
-   registerUser = (req, res) => {
+   
+  registerUser = (req, res) => {
       try {
-        //Validate Incoming user property
+
+        //Validate user input
         const userInputValidation = userInput.validate(req.body);
         if (userInputValidation.error) {
+          logger.error(userInputValidation.error.details[0].message)
           return res.status(400).send({
             success: false,
             message: userInputValidation.error.details[0].message,                   
@@ -48,7 +45,7 @@ class UserController {
         //calling method to add new user data
         service.registerNewUser(req.body, (err, data) => {
           return err
-            ? res.status(500).send({
+           ? res.status(500).send({
                 success: false,
                 message: err.message || 'Some error occurred while adding user',
               })

@@ -51,12 +51,11 @@ class ServiceClass {
           else if(!Helper.passwordCheck(credential.password, data.password)) {
             return callback("Incorrect password", null)
           }
-          
-        var token = Helper.generateToken(credential)
-        return callback(null, token) 
+          var token = Helper.generateToken(credential)
+          return callback(null, token) 
 
-    })
-    }
+        })
+  }
 }
 
 //exporting class

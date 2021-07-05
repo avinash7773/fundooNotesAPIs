@@ -3,8 +3,8 @@ const chaiHTTP = require("chai-http")
 const server = require("../server")
 const userInput = require("./userInput.json")
 const mocha = require("mocha")
-const { it } = require("mocha")
-const { use } = require("chai")
+// const { it } = require("mocha")
+// const { use } = require("chai")
 
 //Assertion style
 const should = chai.should();

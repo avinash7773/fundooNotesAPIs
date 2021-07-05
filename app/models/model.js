@@ -30,58 +30,28 @@ const SALT_ROUNDS = 8;
 
 //create userSchema
 const userSchema =  new mongoose.Schema({
-    firstName : {
-                type : String,
-                required : true,
-                validator : "^[A-Z]{1}[A-Za-z]{2,}"
-              },
-    lastName : {
-                type : String,
-                required : true,
-                validator : "^[A-Z]{1}[A-Za-z]{2,}"
-              },
-    email    : {   
-                type : String,
-                required : true,
-                unique : true,
-                validator : "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$" 
-              },
-    password : {
-                type : String,
-                required : true,
-                validator : "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})"
-              },
-    });
+    firstName : {},
+    lastName : {},
+    email : {},
+    password : {}
+});
 
-  //function for making hash password        
-  userSchema.pre('save', function(next) {
-    bcrypt.hash(this.password, SALT_ROUNDS, (err, hashPassword) => {
-      if(err) return next(err);
-
-      this.password = hashPassword ;
-      next();
-    })
-  })  
-
-const Schema = mongoose.model('userSchemaModel',userSchema);
+const Schema = mongoose.model('userSchemaModel', userSchema);
 
 class RegisterUser{
     
-  /**
-   * @description : register new user
-   * @param {*} inputUser 
-   * @param {*} callback 
-   * @returns 
-   */
+    //Register new user
     newUserRegistration = (inputUser, callback) => {
       try {
+
+        //creating new user
         const user = new Schema({
           firstName: inputUser.firstName,
           lastName: inputUser.lastName,
           email: inputUser.email,
           password: inputUser.password,
         });
-        
+  
         //to save the new user
         user.save((err, data) => {
           return err ? callback(err, null) : callback(null, data);
@@ -103,8 +73,6 @@ class RegisterUser{
       });
     }
 }
-
-
 
 //exporting registerUser
 module.exports = new RegisterUser();

@@ -30,7 +30,8 @@ require("./config/database.config")
 const app = express();
 
 //importing swagger
-const swaggerUI = require("swagger-ui-express")
+const swaggerUI = require("swagger-ui-express");
+const logger = require("./config/logger");
 const swaggerDocs = require("./swagger/swagger.json")
 
 app.use('/fundooNotesAPI', swaggerUI.serve, swaggerUI.setup(swaggerDocs));
@@ -52,6 +53,7 @@ require("./app/routes/routes")(app)
 //listening  port 3000
 app.listen(Port, (req, res) => {
     console.log("listening form port 3000")
+    logger.info(`listenning on port: ${Port}` )
 })
 
 
