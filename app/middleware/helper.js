@@ -9,15 +9,16 @@ require("dotenv").config();
 
 class Helper {
   passwordCheck(userPassword, dbPassword) {
-        const isMatch = bcrypt.compareSync(userPassword, dbPassword);
+        console.log("userpassword=", userPassword)
+        console.log("dbpassword=", dbPassword)
+        const isMatch = bcrypt.compare(userPassword, dbPassword);
         if(isMatch) return true;
         return false;
     }
 
     //generating token
     generateToken(credential) {
-       return jwt.sign({_id : credential._id}, process.env.SECRETKEY);
-
+       return jwt.sign({_id : credential._id}, process.env.SECRETKEY,);
     }
 
 }

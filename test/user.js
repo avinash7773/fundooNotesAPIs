@@ -3,11 +3,10 @@ const chaiHTTP = require("chai-http")
 const server = require("../server")
 const userInput = require("./userInput.json")
 const mocha = require("mocha")
-// const { it } = require("mocha")
-// const { use } = require("chai")
+
 
 //Assertion style
-const should = chai.should();
+chai.should();
 
 chai.use(chaiHTTP);
 
@@ -31,9 +30,11 @@ chai.use(chaiHTTP);
             .eql('User registered successfully');
           res.body.should.have.property('data').which.is.an('object');
           err ? done(err) : done();
+          
         });
     });
-it('givenData_whenFirstNameIsInValid_shouldReturnError', (done) => {
+  
+    it('givenData_whenFirstNameIsInValid_shouldReturnError', (done) => {
     const userDetails = userInput.registerUserFirstNameFail1;
     chai
       .request(server)
@@ -74,6 +75,7 @@ it('givenData_whenFirstNameIsInValid_shouldReturnError', (done) => {
         err ? done(err) : done();
       });
   });
+ 
   it('givenData_whenEmailIsInValid_shouldReturnError', (done) => {
     const userDetails = userInput.registerUserEmailFail;
     chai
@@ -100,23 +102,8 @@ it('givenData_whenFirstNameIsInValid_shouldReturnError', (done) => {
  *               Contains positive and negative scenarios.
  */
 describe('POST - User Login', () => {
-    it('givenLoginDetails_whenEmailAndPasswordAreValid_shouldLoginTheUserAndReturnToken', (done) => {
-      const userCredentials = userInput.userLoginPass;
-      chai
-        .request(server)
-        .post('/Login')
-        .send(userCredentials)
-        .end((err, res) => {
-          res.should.have.status(200);
-          res.body.should.be.a('object');
-          res.body.should.have.property('success').eql(true);
-          res.body.should.have.property('message').eql('Log in Successfully!!!!');
-          res.body.should.have.property('data');
-          err ? done(err) : done();
-        });
-    });
-
-    it('givenLoginDetails_whenInValidEmailAndValidPassword_shouldReturnError', (done) => {
+ 
+     it('givenLoginDetails_whenInValidEmailAndValidPassword_shouldReturnError', (done) => {
         const userCredentials = userInput.userLoginWrongEmailFail;
         chai
           .request(server)
@@ -126,9 +113,8 @@ describe('POST - User Login', () => {
             res.should.have.status(400);
             res.body.should.be.a('object');
             res.body.should.have.property('success').eql(false);
-            res.body.should.have
-              .property('message')
-              .eql('Email not found');
+            res.body.should.have.property('message')
+            .eql('Email not found');
             err ? done(err) : done();
           });
       });
@@ -147,8 +133,7 @@ describe('POST - User Login', () => {
             err ? done(err) : done();
           });
       });
-}
-)
+})
     
     
     

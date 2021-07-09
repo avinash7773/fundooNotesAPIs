@@ -18,10 +18,16 @@
  ***************************************************************************************/
 
 //Importing model
-const userSchema = require("../models/model")
+const userSchema = require("../models/user")
 
 //Importing middleware
 const Helper = require("../middleware/helper");
+const sendEmail = require("../util/forgotpassword")
+const crypto = require("crypto")
+const bcrypt = require("bcrypt")
+const Token = require("../models/token");
+const  Schema  = require("mongoose");
+const SALT_ROUNDS = 10;
 
 class ServiceClass {
 
@@ -43,7 +49,7 @@ class ServiceClass {
     };
 
     //login user
-    userLogIn(credential, callback) {
+    userLogIn = (credential, callback) => {
         userSchema.loginUser(credential,(err,data) => {
           if(err) {
             return callback(err, null)
@@ -55,8 +61,37 @@ class ServiceClass {
           return callback(null, token) 
 
         })
-  }
+    }
+
+    requestResetPassword = async (email) => {
+       try{
+        const user = await userSchema.forgotPassword(email);
+        
+        let resettoken = crypto.randomBytes(23).toString("hex")
+        const hash = await bcrypt.hash(resettoken, SALT_ROUNDS)
+ 
+        await new Token({
+         userId: user._id,
+         token: hash,
+         createdAt: Date.now(),
+        }).save()
+ 
+        const link = `${process.env.CLINTURL}/passwordReset?token=${resettoken}&id=${user._id}`;
+        
+        sendEmail(
+          user.email,
+         "Password Reset Request",
+          link
+        );
+       
+        return link;
+       }
+       catch(err) {
+         return err
+       }
+    };
 }
 
-//exporting class
-module.exports = new ServiceClass();
+
+  //exporting class
+module.exports = new ServiceClass()

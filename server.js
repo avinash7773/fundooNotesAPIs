@@ -48,13 +48,13 @@ app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 
 //calling routes
-require("./app/routes/routes")(app)
+require("./app/routes/notes")(app)
 
 //listening  port 3000
 app.listen(Port, (req, res) => {
     console.log("listening form port 3000")
-    logger.info(`listenning on port: ${Port}` )
+    logger.info(`listenning on port: ${Port}`)
 })
 
 
-module.exports = app
+module.exports = app;

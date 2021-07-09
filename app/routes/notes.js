@@ -20,7 +20,7 @@
  *******************************************************************************************/
 
 //importing controllers
-const Controller = require("../controllers/controller")
+const Controller = require("../controllers/user")
 
 /**
  * @description : contain userregistration function and routes
@@ -33,5 +33,7 @@ module.exports = (app) => {
     app.post('/register', Controller.registerUser);
 
     app.post('/Login', Controller.loginUser);
+
+   app.post('/forgotpassword', Controller.resetPasswordRequestController);
 
 }

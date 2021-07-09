@@ -21,22 +21,56 @@
 const mongoose = require("mongoose");
 
 const validator = require("validator");
-const { schema } = require("../middleware/uservalidator");
 
 //importing bcrypt module
 const bcrypt = require('bcrypt')
 
-const SALT_ROUNDS = 8;
+const SALT_ROUNDS = 10;
 
 //create userSchema
 const userSchema =  new mongoose.Schema({
-    firstName : {},
-    lastName : {},
-    email : {},
-    password : {}
-});
+  firstName : {
+    type : String,
+    required : true,
+    unique : true,
+    validator : "^[A-Z]{1}[A-Za-z]{2,}"},
+    
 
-const Schema = mongoose.model('userSchemaModel', userSchema);
+  lastName : {
+    type : String,
+    required : true,
+    unique : true,
+    validator : "^[A-Z]{1}[A-Za-z]{2,}"},
+
+  email    : {   
+    type : String,
+    required : true,
+    unique : true,
+    validator : "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$" },
+
+  password : {
+    type : String,
+    required : true,
+    unique : true,
+    validator : "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})"},
+
+  });
+
+ console.log("before pre");
+  userSchema.pre('save', function(next) {
+    console.log("in pre");
+    const user = this;
+    bcrypt.hash(user.password, SALT_ROUNDS, (err, hashPassword) => {
+      if(err) return next(err);
+      user.password = hashPassword ;
+      next();
+    })
+  }) 
+  
+  const Schema = mongoose.model('userSchemaModel', userSchema);
+  module.exports = Schema
+
+
 
 class RegisterUser{
     
@@ -51,30 +85,45 @@ class RegisterUser{
           email: inputUser.email,
           password: inputUser.password,
         });
-  
-        //to save the new user
-        user.save((err, data) => {
-          return err ? callback(err, null) : callback(null, data);
-        });
+       
+
+      //to save the new user
+      user.save((err, data) => {
+        console.log("in save");
+        return err ? callback(err, null) : callback(null, data);
+      });
       } catch (err) {
         return callback(err, null);
       }
     }; 
 
     //login user
-        loginUser(credential, callback) {
-        Schema.findOne({email : credential.email}, (err, data) => {
-          if(err) {
-            return callback(err, null)
-          } else if(!data) {
-            return callback("Email not found", null)
-          }
+    loginUser = (credential, callback) => {
+      Schema.findOne({email : credential.email}, (err, data) => {
+        if(err) {
+          return callback(err, null)
+        } else if(!data) {
+          return callback("Email not found", null)
+        }
           return callback(null, data)
       });
     }
+
+    forgotPassword = async (email) => {
+      const user = await Schema.findOne({email })
+      if(!user) throw new Error("Email is not exist")
+      return user;
+     
+      
+    }
+
+
+
+    
 }
 
+
 //exporting registerUser
-module.exports = new RegisterUser();
+module.exports = new RegisterUser()
 
 

@@ -20,11 +20,12 @@
  *********************************************************************************************/
 
 //import servicess
-const service = require("../service/service")
+const service = require("../service/user")
 
 //importing middleware validator
 const userInput  = require("../middleware/uservalidator");
-const logger = require("../../config/logger");
+const logger = require("../../config/logger")
+
 
 class UserController {
    
@@ -77,6 +78,13 @@ class UserController {
           : res.status(200).send({ success: true, message: 'Log in Successfully!!!!', data});
       });
     }
+
+     resetPasswordRequestController = async (req, res, next) => {
+      var requestPasswordResetService = await service.requestResetPassword(
+        req.body.email
+      );
+      return res.json(requestPasswordResetService);
+    };
 }
 
 //Exporting class
