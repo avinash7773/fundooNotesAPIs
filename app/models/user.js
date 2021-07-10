@@ -67,7 +67,7 @@ const userSchema =  new mongoose.Schema({
     })
   }) 
   
-  const Schema = mongoose.model('userSchemaModel', userSchema);
+const Schema = mongoose.model('userSchemaModel', userSchema);
 
 class RegisterUser{
     
@@ -92,29 +92,23 @@ class RegisterUser{
       } catch (err) {
         return callback(err, null);
       }
-    }; 
+    };
 
     //login user
     loginUser = (credential, callback) => {
       Schema.findOne({email : credential.email}, (err, data) => {
-        if(err) {
-          return callback(err, null)
-        } else if(!data) {
-          return callback("Email not found", null)
-        }
-          return callback(null, data)
-      });
+        return err ? callback(err, null)
+            : !data ? callback("Email not found", null)
+            : callback(null, data)
+      }
+    );
     }
 
     forgotPassword = (email, callback) => {
       Schema.findOne({email}, (err, data) => {
-        if(err) {
-          return callback(err, null)
-        } else if(!data) {
-          return callback("Email not found", null)
-        }
-        
-        return callback(null, data)
+        return err ? callback(err, null)
+            : !data ? callback("Email not found", null)
+            : callback(null, data)
       })
     }
 }

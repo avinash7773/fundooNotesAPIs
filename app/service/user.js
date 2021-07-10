@@ -51,16 +51,10 @@ class ServiceClass {
     //login user
     userLogIn = (credential, callback) => {
         userSchema.loginUser(credential,(err,data) => {
-          if(err) {
-            return callback(err, null)
-          }
-          else if(!Helper.passwordCheck(credential.password, data.password)) {
-            return callback("Incorrect password", null)
-          }
-          var token = Helper.generateToken(credential)
-          return callback(null, token) 
-
-        })
+          return err ? callback(err, null)
+              :(!Helper.passwordCheck(credential.password, data.password)) ? callback("Incorrect password", null)
+              : callback(null, Helper.generateToken(credential)) 
+          })
     }
 
     requestResetPassword = (email, callback) => {

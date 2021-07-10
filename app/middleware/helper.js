@@ -9,9 +9,8 @@ require("dotenv").config();
 
 class Helper {
   passwordCheck(userPassword, dbPassword) {
-        const isMatch = bcrypt.compare(userPassword, dbPassword);
-        if(isMatch) return true;
-        return false;
+       return userPassword && dbPassword ? bcrypt.compareSync(userPassword, dbPassword)
+         : false
     }
 
     //generating token

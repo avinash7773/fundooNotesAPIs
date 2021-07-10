@@ -42,8 +42,6 @@ class UserController {
             data: req.body,
           });
         }
-       
-        //calling method to add new user data
         service.registerNewUser(req.body, (err, data) => {
           return err
            ? res.status(500).send({
@@ -70,8 +68,6 @@ class UserController {
         email: req.body.email,
         password: req.body.password,
       };
- 
-      //calling a function to login user
       service.userLogIn(userCredentials, (err, data) => {
         return err
           ? res.status(400).send({ success: false, message: err })
@@ -79,14 +75,12 @@ class UserController {
       });
     }
 
+    //resetPassword successfully
      resetPasswordRequestController(req, res) {
         service.requestResetPassword(req.body.email, (err, data) => {
            return err ? res.status(400).send({success : false, message : err})
           : res.status(200).send({ success: true, message: 'link sent Successfully!!!!', data});
-            
-       
-        });
-   //   return res.json(requestPasswordResetService)
+      });
     };
 }
 
