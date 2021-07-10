@@ -3,7 +3,7 @@ const nodemailer = require("nodemailer");
 require("dotenv").config();
 
 
-const sendEmail = async (email, subject, payload) => {
+const sendEmail = async (email, subject, link) => {
     try {
       const transporter = nodemailer.createTransport({
         host: process.env.Host,
@@ -22,7 +22,7 @@ const sendEmail = async (email, subject, payload) => {
         subject : subject,
         html :`
         <h2>Please click on below link</h2>
-        <p>${payload}</p>`
+        <p>${link}</p>`
       })
     } catch (error) {
       return error;

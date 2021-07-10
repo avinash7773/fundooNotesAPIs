@@ -72,3 +72,6 @@
 {"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-06T08:40:29.207Z"}
 {"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-06T08:40:29.213Z"}
 {"message":"\"firstName\" with value \"avinash\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-07T06:18:43.943Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-10T02:28:55.191Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-10T02:28:55.199Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-10T02:28:55.205Z"}

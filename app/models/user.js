@@ -68,9 +68,6 @@ const userSchema =  new mongoose.Schema({
   }) 
   
   const Schema = mongoose.model('userSchemaModel', userSchema);
-  module.exports = Schema
-
-
 
 class RegisterUser{
     
@@ -109,21 +106,22 @@ class RegisterUser{
       });
     }
 
-    forgotPassword = async (email) => {
-      const user = await Schema.findOne({email })
-      if(!user) throw new Error("Email is not exist")
-      return user;
-     
-      
+    forgotPassword = (email, callback) => {
+      Schema.findOne({email}, (err, data) => {
+        if(err) {
+          return callback(err, null)
+        } else if(!data) {
+          return callback("Email not found", null)
+        }
+        
+        return callback(null, data)
+      })
     }
-
-
-
-    
 }
 
 
 //exporting registerUser
 module.exports = new RegisterUser()
+
 
 

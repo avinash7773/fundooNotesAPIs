@@ -79,11 +79,14 @@ class UserController {
       });
     }
 
-     resetPasswordRequestController = async (req, res, next) => {
-      var requestPasswordResetService = await service.requestResetPassword(
-        req.body.email
-      );
-      return res.json(requestPasswordResetService);
+     resetPasswordRequestController(req, res) {
+        service.requestResetPassword(req.body.email, (err, data) => {
+           return err ? res.status(400).send({success : false, message : err})
+          : res.status(200).send({ success: true, message: 'link sent Successfully!!!!', data});
+            
+       
+        });
+   //   return res.json(requestPasswordResetService)
     };
 }
 

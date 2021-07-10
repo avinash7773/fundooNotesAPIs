@@ -36,4 +36,7 @@ module.exports = (app) => {
 
    app.post('/forgotpassword', Controller.resetPasswordRequestController);
 
+  
+
+
 }
