@@ -3,8 +3,10 @@ const nodemailer = require("nodemailer");
 require("dotenv").config();
 
 
+
 const sendEmail = async (email, subject, link) => {
-    try {
+ 
+  try {
       const transporter = nodemailer.createTransport({
         host: process.env.Host,
         service : "gmail",
@@ -18,7 +20,7 @@ const sendEmail = async (email, subject, link) => {
      // Send email
       transporter.sendMail({
         from : process.env.USER,
-        to : email,
+        to : email, 
         subject : subject,
         html :`
         <h2>Please click on below link</h2>

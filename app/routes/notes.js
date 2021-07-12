@@ -34,9 +34,9 @@ module.exports = (app) => {
 
     app.post('/Login', Controller.loginUser);
 
-   app.post('/forgotpassword', Controller.resetPasswordRequestController);
+    app.post('/forgotpassword', Controller.forgotPasswordController);
 
-  
+    app.put('/resetPassword', Controller.resetPassword);
 
 
 }

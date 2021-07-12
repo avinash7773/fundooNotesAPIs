@@ -27,7 +27,7 @@ const express = require("express");
 require("./config/database.config")
 
 //create express app
-const app = express();
+const app = express()
 
 //importing swagger
 const swaggerUI = require("swagger-ui-express");
@@ -51,10 +51,10 @@ app.use(express.json())
 require("./app/routes/notes")(app)
 
 //listening  port 3000
-app.listen(Port, (req, res) => {
+const server = app.listen(Port, (req, res) => {
     console.log("listening form port 3000")
     logger.info(`listenning on port: ${Port}`)
 })
 
 
-module.exports = app;
+module.exports = server;

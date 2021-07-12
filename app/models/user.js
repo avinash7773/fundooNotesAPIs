@@ -58,7 +58,6 @@ const userSchema =  new mongoose.Schema({
 
  console.log("before pre");
   userSchema.pre('save', function(next) {
-    console.log("in pre");
     const user = this;
     bcrypt.hash(user.password, SALT_ROUNDS, (err, hashPassword) => {
       if(err) return next(err);
@@ -69,7 +68,7 @@ const userSchema =  new mongoose.Schema({
   
 const Schema = mongoose.model('userSchemaModel', userSchema);
 
-class RegisterUser{
+ class RegisterUser{
     
     //Register new user
     newUserRegistration = (inputUser, callback) => {
@@ -105,7 +104,7 @@ class RegisterUser{
     }
 
     forgotPassword = (email, callback) => {
-      Schema.findOne({email}, (err, data) => {
+      Schema.findOne({email : email.email}, (err, data) => {
         return err ? callback(err, null)
             : !data ? callback("Email not found", null)
             : callback(null, data)

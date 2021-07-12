@@ -12,10 +12,11 @@ class Helper {
        return userPassword && dbPassword ? bcrypt.compareSync(userPassword, dbPassword)
          : false
     }
-
+  
     //generating token
     generateToken(credential) {
-       return jwt.sign({_id : credential._id}, process.env.SECRETKEY,);
+      return jwt.sign({credential}, process.env.SECRETKEY,);
+    
     }
 
 }

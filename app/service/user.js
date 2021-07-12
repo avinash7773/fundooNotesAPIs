@@ -24,10 +24,10 @@ const userSchema = require("../models/user")
 const Helper = require("../middleware/helper");
 const sendEmail = require("../util/forgotpassword")
 const bcrypt = require("bcrypt")
-const Token = require("../models/token");
 const  Schema  = require("mongoose");
 const user = require("../controllers/user");
 const SALT_ROUNDS = 10;
+const jwt = require("jsonwebtoken")
 
 class ServiceClass {
 
@@ -57,24 +57,30 @@ class ServiceClass {
           })
     }
 
-    requestResetPassword = (email, callback) => {
+    //requestfor resetPassword
+    requestForgotPassword = (email, callback) => {
+      let link; 
+      let newToken;
         userSchema.forgotPassword(email, (err,data) => {
-          if(err) {
-            return callback(err, null)
-          } else {
-              let newtoken = Helper.generateToken(data.email)
-              const tokenSchema = new Token({
-                      userId : data._id,
-                      token: newtoken,
-                      createdAt: Date.now(),
-                }).save()
-            
-              const link = `${process.env.CLINTURL}/passwordReset?token=${newtoken}&id=${user._id}`;
-              sendEmail(data.email, "Password Reset Request", link)
-              return callback(null, link)
-        }
-    });
-}}
+          return err ? callback(err, null)
+             : newToken = Helper.generateToken(data),
+               link = `${process.env.CLINTURL}/passwordReset/${newToken}`,
 
+               sendEmail(data.email, "Password Reset Request", link),
+
+               callback(null, link)
+          })
+    };
+
+    //resetpassword
+    passwordReset = (userInput, calllback) => {
+      console.log("input token=",userInput.token);
+      var decode = jwt.decode(userInput.token)
+      console.log("user=", decode);
+    
+      
+    }
+}  
+      
 //exporting class
 module.exports = new ServiceClass()
