@@ -88,6 +88,15 @@ class UserController {
 
     //resetPassword
     resetPassword(req, res) {
+      const userInputValidation = userInput.validate(req.body);
+        if (userInputValidation.error) {
+          logger.error(userInputValidation.error.details[0].message)
+          return res.status(400).send({
+            success: false,
+            message: userInputValidation.error.details[0].message,                   
+            data: req.body,
+          });
+        }
       
       let userData = {
         token : req.headers.token,

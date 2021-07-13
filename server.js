@@ -52,7 +52,7 @@ require("./app/routes/notes")(app)
 
 //listening  port 3000
 const server = app.listen(Port, (req, res) => {
-    console.log("listening form port 3000")
+    console.log("listening from port 3000")
     logger.info(`listenning on port: ${Port}`)
 })
 

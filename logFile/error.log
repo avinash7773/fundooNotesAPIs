@@ -75,3 +75,5 @@
 {"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-10T02:28:55.191Z"}
 {"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-10T02:28:55.199Z"}
 {"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-10T02:28:55.205Z"}
+{"message":"\"password\" with value \"raj@123456\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-07-13T03:38:30.116Z"}
+{"message":"\"password\" with value \"raj@123456\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-07-13T03:39:51.645Z"}

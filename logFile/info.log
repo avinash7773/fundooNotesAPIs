@@ -741,3 +741,9 @@
 {"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T02:55:01.330Z"}
 {"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T02:55:48.778Z"}
 {"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T03:00:10.541Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T03:29:25.344Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T03:38:13.397Z"}
+{"message":"\"password\" with value \"raj@123456\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-07-13T03:38:30.116Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T03:39:47.827Z"}
+{"message":"\"password\" with value \"raj@123456\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-07-13T03:39:51.645Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T03:40:27.816Z"}
