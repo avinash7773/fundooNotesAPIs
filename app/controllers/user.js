@@ -16,7 +16,7 @@
  * 
  * @version    :
  * 
- * @since      : 15-06-2021 
+ * @since      : 23-06-2021 
  *********************************************************************************************/
 
 //import servicess
@@ -29,6 +29,13 @@ const logger = require("../../config/logger")
 
 class UserController {
    
+  /**function to call registerNewUser function from service/user.js that register user
+   *  into userSchema 
+   * 
+   * @param {*} req 
+   * @param {*} res 
+   * @returns 
+   */
   registerUser = (req, res) => {
       try {
 
@@ -62,7 +69,12 @@ class UserController {
       }
     };
 
-    //login user
+    /**function to call userLogIn from service/user.js that 
+     * check user log in
+     * 
+     * @param {*} req 
+     * @param {*} res 
+     */
     loginUser(req, res) {
       const userCredentials = {
         email: req.body.email,
@@ -75,19 +87,32 @@ class UserController {
       });
     }
 
-    //resetPassword successfully
+    /**function to call requestForgotPassword 
+     * from service/user.js 
+     * 
+     * @param {*} req 
+     * @param {*} res 
+     */
      forgotPasswordController(req, res) {
        var userData = {
         email: req.body.email,
       }
-        service.requestForgotPassword(userData, (err, data) => {
+        service.forgotPassword(userData, (err, data) => {
            return err ? res.status(400).send({success : false, message : err})
           : res.status(200).send({ success: true, message: 'link sent Successfully!!!!', data});
       });
     };
 
-    //resetPassword
+    /**
+     * function first validate incomig request 
+     * and call passwordReset function from service.js
+     * @param {*} req 
+     * @param {*} res 
+     * @returns 
+     */
     resetPassword(req, res) {
+
+      //inputrequest validate
       const userInputValidation = userInput.validate(req.body);
         if (userInputValidation.error) {
           logger.error(userInputValidation.error.details[0].message)

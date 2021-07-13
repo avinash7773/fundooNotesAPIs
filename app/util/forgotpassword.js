@@ -1,9 +1,32 @@
-const { compile } = require("@hapi/joi");
+/**
+ * Execution :  1. Default node with npm   cmd> npm server.js
+ *              2. If nodemon installed    cmd> nodemon  start
+ * 
+ * Purpose    :  sending mail to user
+ * 
+ * @description : send mail to user
+ * 
+ * @file        : forgotpassword.js
+ * 
+ * @overview    : send mail to user
+ * 
+ * @module      : send mail
+ * 
+ * @author      : Avinash Jadhav <javinash228@gmail.com>
+ * 
+ * @since       : 23/06/2021
+ */
 const nodemailer = require("nodemailer");
 require("dotenv").config();
 
-
-
+/**function is for sending mail to user 
+ * using nodemailer 
+ * 
+ * @param {*} email 
+ * @param {*} subject 
+ * @param {*} link 
+ * @returns 
+ */
 const sendEmail = async (email, subject, link) => {
  
   try {

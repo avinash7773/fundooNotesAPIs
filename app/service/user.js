@@ -10,17 +10,15 @@
  * 
  * @module    : 
  * 
- * @author    : Avinash Jadhav
+ * @author    : Avinash Jadhav <javinash228@gmail.com>
  * 
  * @version   :
  * 
- * @since     : 15-06-2021
+ * @since     : 23-06-2021
  ***************************************************************************************/
 
 //Importing model
 const userSchema = require("../models/user")
-
-//Importing middleware
 const Helper = require("../middleware/helper");
 const sendEmail = require("../util/forgotpassword")
 const bcrypt = require("bcrypt")
@@ -31,7 +29,8 @@ const jwt = require("jsonwebtoken")
 
 class ServiceClass {
 
-  /**
+  /**function to call newUserRegistration
+   *  from model/user.js that is create new user data
    * 
    * @param {*} inputUser express property
    * @param {*} callback express property
@@ -39,7 +38,6 @@ class ServiceClass {
    */
    registerNewUser = (inputUser, callback) => {
       try {
-        //calling the method to create new employee object with given data
         userSchema.newUserRegistration(inputUser, (err, data) => {
           return err ? callback(err, null) : callback(null, data);
         });
@@ -48,7 +46,12 @@ class ServiceClass {
       }
     };
 
-    //login user
+    /**function to call loginUser from model/user.js
+     * and call passwordCheck function from middleware/helper.js
+     * 
+     * @param {*} credential 
+     * @param {*} callback 
+     */
     userLogIn = (credential, callback) => {
         userSchema.loginUser(credential,(err,data) => {
           return err ? callback(err, null)
@@ -57,39 +60,44 @@ class ServiceClass {
           })
     }
 
-    //requestfor resetPassword
-    requestForgotPassword = (email, callback) => {
+    /**function to call forgotPassword from model/user.js,
+     * crate link and call sendEmail function from util/forgotpassword.js 
+     * 
+     * @param {*} email 
+     * @param {*} callback 
+     */
+    forgotPassword = (email, callback) => {
       let link; 
       let newToken;
-        userSchema.forgotPassword(email, (err,data) => {
+        userSchema.getUser(email, (err,data) => {
           return err ? callback(err, null)
              : newToken = Helper.generateToken(email),
                link = `${process.env.CLINTURL}/passwordReset/${newToken}`,
 
                sendEmail(data.email, "Password Reset Request", link),
-
-               callback(null, link)
+                callback(null, link)
           })
     };
 
-    //resetpassword
+    /**function to call getEmailFromToken from middleware/helper.js,
+     * and call updatePassword from model/user.js 
+     * 
+     * @param {*} userInput 
+     * @param {*} callback 
+     */
     passwordReset = (userInput, callback) => {
       var  email = Helper.getEmailFromToken(userInput.token)
       var inputData = {
         email : email,
         password : userInput.password
       }
+
       userSchema.updatePassword(inputData, (err, data) => {
             return err ? callback(err, null) 
             : callback(null, data)
       }) 
-
-      
-    
     }
-       
-
-  }  
+}  
       
 //exporting class
 module.exports = new ServiceClass()

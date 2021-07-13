@@ -72,7 +72,14 @@ const Schema = mongoose.model('userSchemaModel', userSchema);
 
  class RegisterUser{
     
-    //Register new user
+    /**function for create new user object 
+     * for registering new user
+     * and save
+     * 
+     * @param {*} inputUser 
+     * @param {*} callback 
+     * @returns 
+     */
     newUserRegistration = (inputUser, callback) => {
       try {
 
@@ -95,7 +102,12 @@ const Schema = mongoose.model('userSchemaModel', userSchema);
       }
     };
 
-    //login user
+    /**function for check given credential 
+     * user is exist or not
+     * 
+     * @param {*} credential 
+     * @param {*} callback 
+     */
     loginUser = (credential, callback) => {
       Schema.findOne({email : credential.email}, (err, data) => {
         return err ? callback(err, null)
@@ -104,7 +116,13 @@ const Schema = mongoose.model('userSchemaModel', userSchema);
       });
     }
 
-    forgotPassword = (email, callback) => {
+    /**function  for checking user is 
+     * exist or not
+     * 
+     * @param {*} email 
+     * @param {*} callback 
+     */
+    getUser = (email, callback) => {
       Schema.findOne({email : email.email}, (err, data) => {
         return err ? callback(err, null)
             : !data ? callback("Email not found", null)
@@ -112,6 +130,12 @@ const Schema = mongoose.model('userSchemaModel', userSchema);
       })
     }
 
+    /**function for hashing password and 
+     * updating new password
+     * 
+     * @param {} inputData 
+     * @param {*} callback 
+     */
     updatePassword = async  (inputData, callback) =>{
             let data = await Schema.findOne({email : inputData.email})
             let hash = bcrypt.hashSync(inputData.password, SALT_ROUNDS, (err, hashPassword) => {
