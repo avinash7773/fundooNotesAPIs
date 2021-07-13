@@ -71,6 +71,69 @@
             }
           }
         }
+      },
+
+      "/ForgotPassword" : {
+        "post" : {
+          "tags" : [],
+          "description" : "forgotPassword",
+          "parameters" :[
+            {
+              "name" : "email",
+              "in" : "body",
+              "required" : true,
+              "schema" : {
+                  "$ref" :"#/definitions/forgotpassword"
+              }
+            }
+          ],
+
+          "responses": {
+            "200": {
+              "description": "sent successsfully"
+            },
+            "404": {
+              "description": "Not Found"
+            },
+            "500": {
+              "description": "Internal Server Error"
+            }
+          }
+        }
+      },
+
+      "/ResetPassword" : {
+        "put" : {
+          "tags" : [],
+          "description" : "resetPassword",
+          "parameters" :[
+            {
+              "name" : "Token",
+              "in" : "header",
+              "required" :true
+            },
+            {
+              "name": "password",
+              "in":"body",
+              "required" : true,
+              "schema" : {
+                  "$ref" :"#/definitions/resetpassword"
+              }
+            }
+          ],
+
+          "responses": {
+            "200": {
+              "description": "update successsfully"
+            },
+            "404": {
+              "description": "Not valid"
+            },
+            "500": {
+              "description": "Internal Server Error"
+            }
+          }
+        }
       }
     },
 
@@ -103,8 +166,26 @@
             "type": "string"
             }
           } 
+        },
+
+        "forgotpassword" :{
+          "type" : "object",
+          "properties" : {
+            "email" : {
+              "type" : "string"
+            }
+          }
+        },
+
+        "resetpassword" :{
+          "type" : "object",
+          "properties" : {
+            "password" : {
+              "type" : "string"
+            }
+           }
         }
-      }
+    }
 }
       
     
