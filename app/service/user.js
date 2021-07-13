@@ -63,7 +63,7 @@ class ServiceClass {
       let newToken;
         userSchema.forgotPassword(email, (err,data) => {
           return err ? callback(err, null)
-             : newToken = Helper.generateToken(data),
+             : newToken = Helper.generateToken(email),
                link = `${process.env.CLINTURL}/passwordReset/${newToken}`,
 
                sendEmail(data.email, "Password Reset Request", link),
@@ -73,14 +73,23 @@ class ServiceClass {
     };
 
     //resetpassword
-    passwordReset = (userInput, calllback) => {
-      console.log("input token=",userInput.token);
-      var decode = jwt.decode(userInput.token)
-      console.log("user=", decode);
-    
+    passwordReset = (userInput, callback) => {
+      var  email = Helper.getEmailFromToken(userInput.token)
+      var inputData = {
+        email : email,
+        password : userInput.password
+      }
+      userSchema.updatePassword(inputData, (err, data) => {
+            return err ? callback(err, null) 
+            : callback(null, data)
+      }) 
+
       
+    
     }
-}  
+       
+
+  }  
       
 //exporting class
 module.exports = new ServiceClass()

@@ -12,10 +12,15 @@ class Helper {
        return userPassword && dbPassword ? bcrypt.compareSync(userPassword, dbPassword)
          : false
     }
+    //getEmail
+    getEmailFromToken(token) {
+      const decoded = jwt.verify(token, process.env.SECRETKEY);
+      return decoded.email
+  }
   
     //generating token
-    generateToken(credential) {
-      return jwt.sign({credential}, process.env.SECRETKEY,);
+    generateToken(userData) {
+      return jwt.sign(userData, process.env.SECRETKEY,);
     
     }
 

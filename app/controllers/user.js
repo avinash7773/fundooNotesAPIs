@@ -88,15 +88,18 @@ class UserController {
 
     //resetPassword
     resetPassword(req, res) {
-      let userInput = {
+      
+      let userData = {
         token : req.headers.token,
         password : req.body.password
       }
-      service.passwordReset(userInput, (err, data) => {
+      service.passwordReset(userData, (err, data) => {
         return err ? res.status(400).send({success : false, message : err})
         : res.status(200).send({success : true, message : "Password reset Successfully!!!", data})
       })
     }
+
+
  }
 
 //Exporting class

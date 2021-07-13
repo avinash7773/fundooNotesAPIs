@@ -23,7 +23,10 @@ const mongoose = require("mongoose");
 const validator = require("validator");
 
 //importing bcrypt module
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcrypt');
+const user = require("../service/user");
+mongoose.set('useFindAndModify', false);
+
 
 const SALT_ROUNDS = 10;
 
@@ -56,7 +59,6 @@ const userSchema =  new mongoose.Schema({
 
   });
 
- console.log("before pre");
   userSchema.pre('save', function(next) {
     const user = this;
     bcrypt.hash(user.password, SALT_ROUNDS, (err, hashPassword) => {
@@ -99,8 +101,7 @@ const Schema = mongoose.model('userSchemaModel', userSchema);
         return err ? callback(err, null)
             : !data ? callback("Email not found", null)
             : callback(null, data)
-      }
-    );
+      });
     }
 
     forgotPassword = (email, callback) => {
@@ -110,8 +111,18 @@ const Schema = mongoose.model('userSchemaModel', userSchema);
             : callback(null, data)
       })
     }
-}
 
+    updatePassword = async  (inputData, callback) =>{
+            let data = await Schema.findOne({email : inputData.email})
+            let hash = bcrypt.hashSync(inputData.password, SALT_ROUNDS, (err, hashPassword) => {
+              return err ? err : hashPassword
+            }) 
+
+            Schema.findByIdAndUpdate(data._id, {password  : hash}, (err, data) => {
+                  return err ? callback(err, null) : callback(null, data)
+            })
+    };
+  }
 
 //exporting registerUser
 module.exports = new RegisterUser()
