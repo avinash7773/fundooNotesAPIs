@@ -15,7 +15,7 @@
  * @author      : Avinash Jadhav <javinash228@gmail.com>
  * 
  * @since       : 23/06/2021
- */
+ *******************************************************************************************************************/
 const nodemailer = require("nodemailer");
 require("dotenv").config();
 
@@ -27,7 +27,7 @@ require("dotenv").config();
  * @param {*} link 
  * @returns 
  */
-const sendEmail = async (email, subject, link) => {
+const sendEmail =  (email, subject, link) => {
  
   try {
       const transporter = nodemailer.createTransport({

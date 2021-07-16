@@ -50,7 +50,7 @@ class ServiceClass {
      * and call passwordCheck function from middleware/helper.js
      * 
      * @param {*} credential 
-     * @param {*} callback 
+     * @param {*} callback  
      */
     userLogIn = (credential, callback) => {
         userSchema.loginUser(credential,(err,data) => {
@@ -70,12 +70,17 @@ class ServiceClass {
       let link; 
       let newToken;
         userSchema.getUser(email, (err,data) => {
+          try{
           return err ? callback(err, null)
-             : newToken = Helper.generateToken(email),
+              : !data ? callback(err, null)
+              : newToken = Helper.generateToken(email),
                link = `${process.env.CLINTURL}/passwordReset/${newToken}`,
-
                sendEmail(data.email, "Password Reset Request", link),
-                callback(null, link)
+               callback(null, link)
+          } catch (err) {
+            return err;
+
+          }
           })
     };
 

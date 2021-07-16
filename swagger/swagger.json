@@ -3,7 +3,7 @@
    "swagger": "2.0",
 
    "info": {
-      "title": "Fundoo Notes Backend",
+      "title": "Fundoo Notes APIs",
       "description": "Backend for Fundoo Notes",
       "version": "1.0.0"
     },
@@ -15,7 +15,7 @@
     "consumes": [],
     "produces": [],
     "paths": {
-      "/register": {
+      "/registerUser": {
         "post": {
           "tags": [],
           "description": "Register new user",
@@ -44,7 +44,7 @@
         }
       },
 
-      "/Login": {
+      "/logIn": {
         "post": {
           "tags": [],
           "description": "Login to account",
@@ -73,7 +73,7 @@
         }
       },
 
-      "/ForgotPassword" : {
+      "/forgotPassword" : {
         "post" : {
           "tags" : [],
           "description" : "forgotPassword",
@@ -102,7 +102,7 @@
         }
       },
 
-      "/ResetPassword" : {
+      "/resetPassword" : {
         "put" : {
           "tags" : [],
           "description" : "resetPassword",

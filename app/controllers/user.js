@@ -112,6 +112,7 @@ class UserController {
      */
     resetPassword(req, res) {
 
+      try{
       //inputrequest validate
       const userInputValidation = userInput.validate(req.body);
         if (userInputValidation.error) {
@@ -131,10 +132,16 @@ class UserController {
         return err ? res.status(400).send({success : false, message : err})
         : res.status(200).send({success : true, message : "Password reset Successfully!!!", data})
       })
+    }catch (err) {
+      return res.status(500).send({
+        success: false,
+        message: err.message || 'Invalid Password!!!!',
+      });
     }
 
 
  }
+}
 
 //Exporting class
 module.exports = new UserController();

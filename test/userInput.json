@@ -38,5 +38,31 @@
     "userLoginWrongPasswordFail": {
       "email":"patil500@gmail.com",
       "password":"vivek@1234"
-    }
-}
+    },
+
+    "userForgotPasswordPass" : {
+      "email" : "avi705789@gmail.com"
+    },
+
+    "userForgotPasswordFail" : {
+      "email": "patil00@gmail.com"
+    },
+
+    "userForgotPasswordFail1" : {
+      "email": "ptil00@gmail.com"
+    },
+
+    "userResetPasswordPass" : {
+      "password" : "NewPassword@1235"
+    },
+  
+    "userResetPasswordToken" :"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF2aTcwNTc4OUBnbWFpbC5jb20iLCJpYXQiOjE2MjY0MTAzMjd9.AJqpgcm_V8XqPZPZvcnFQRZ31dd5U2JH6K78-WovjLE"
+,
+    "userResetPasswordFail1" : {
+      "password" : "NewPassword1234"
+    },
+
+    "userResetPasswordWrongToken" :"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF2aTcwNTc4OUBnbWFpbC5jb20iLCJpYXQiOjE2MjY0MTAzMjd9.AJqpgcm_V8XqPZPZvcnFQRZ31dd5U2JH6K78-WovjLE"
+
+
+  }

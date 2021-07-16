@@ -775,3 +775,645 @@
 {"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T14:34:40.050Z"}
 {"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T14:37:43.518Z"}
 {"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T14:38:26.094Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T14:47:37.403Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T14:47:58.033Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T14:48:12.495Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T14:48:29.391Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T14:49:12.399Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T14:50:09.010Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T14:53:23.152Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T14:53:23.358Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T14:53:23.365Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-13T14:53:23.371Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T14:55:53.094Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T14:55:53.283Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T14:55:53.290Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-13T14:55:53.296Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T14:56:49.872Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T14:56:50.056Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T14:56:50.063Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-13T14:56:50.069Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T15:01:23.057Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T15:01:23.240Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T15:01:23.247Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-13T15:01:23.253Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T15:02:25.157Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T15:02:25.356Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T15:02:25.363Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-13T15:02:25.370Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T15:02:43.706Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T15:02:43.893Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T15:02:43.901Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-13T15:02:43.907Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T15:03:07.904Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T15:03:08.082Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T15:03:08.088Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-13T15:03:08.097Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T15:11:56.125Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T15:11:56.312Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T15:11:56.318Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-13T15:11:56.325Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T15:13:27.093Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T15:13:27.285Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T15:13:27.293Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-13T15:13:27.300Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-13T15:14:16.581Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T15:14:16.769Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-13T15:14:16.776Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-13T15:14:16.782Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T01:30:23.147Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:30:23.376Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:30:23.383Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T01:30:23.390Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T01:31:59.262Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:31:59.450Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:31:59.457Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T01:31:59.463Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T01:32:51.611Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:32:51.798Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:32:51.805Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T01:32:51.811Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T01:39:37.763Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:39:37.952Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:39:37.960Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T01:39:37.965Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T01:40:51.406Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:40:51.597Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:40:51.604Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T01:40:51.610Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T01:41:54.894Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:41:55.083Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:41:55.091Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T01:41:55.098Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T01:52:55.416Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:52:55.628Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:52:55.635Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T01:52:55.640Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T01:53:47.785Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:53:47.979Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:53:47.986Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T01:53:47.993Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T01:56:50.025Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:56:50.205Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T01:56:50.211Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T01:56:50.219Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T02:27:54.350Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:27:54.545Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:27:54.551Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T02:27:54.558Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T02:28:45.262Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:28:45.454Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:28:45.461Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T02:28:45.467Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T02:48:59.165Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:48:59.353Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:48:59.361Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T02:48:59.367Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T02:49:42.062Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:49:42.253Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:49:42.260Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T02:49:42.266Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T02:51:12.409Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:51:12.600Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:51:12.607Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T02:51:12.613Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T02:52:21.821Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:52:22.011Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:52:22.018Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T02:52:22.025Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T02:55:56.400Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:55:56.587Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:55:56.595Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T02:55:56.601Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T02:58:35.993Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:58:36.181Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T02:58:36.188Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T02:58:36.195Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T03:05:14.356Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T03:05:14.543Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T03:05:14.550Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T03:05:14.557Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T03:10:07.042Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T03:10:07.226Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T03:10:07.233Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T03:10:07.239Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T03:11:36.274Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T03:11:36.459Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T03:11:36.468Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T03:11:36.474Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T03:55:35.443Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T03:55:35.644Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T03:55:35.654Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T03:55:35.675Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T05:59:24.347Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T05:59:58.515Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T05:59:58.797Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T05:59:58.804Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T05:59:58.811Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T06:06:36.947Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:06:37.135Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:06:37.149Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T06:06:37.155Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T06:09:40.481Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:09:40.669Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:09:40.686Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T06:09:40.701Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T06:16:31.325Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:16:31.537Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:16:31.549Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T06:16:31.556Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T06:16:48.477Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T06:23:39.897Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T06:24:16.477Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:24:16.688Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:24:16.704Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T06:24:16.716Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T06:51:34.305Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:51:34.519Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:51:34.533Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T06:51:34.540Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T06:52:29.388Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:52:29.586Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:52:29.601Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T06:52:29.607Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T06:53:43.701Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:53:43.904Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:53:43.930Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T06:53:43.941Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T06:55:02.000Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:55:02.192Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T06:55:02.205Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T06:55:02.213Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:06:50.888Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:09:53.875Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:15:17.385Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:19:29.798Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:20:13.955Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:20:45.309Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:20:52.944Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:23:08.569Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:23:10.937Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:25:15.429Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:26:09.393Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:28:27.241Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:29:20.882Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:32:40.076Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:33:13.965Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:33:52.241Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:34:19.423Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:34:51.194Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:35:45.092Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:36:04.376Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:36:33.556Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:37:00.043Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:38:37.379Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:39:33.029Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:40:14.763Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:45:38.484Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:47:56.978Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:48:22.590Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:49:57.071Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:50:46.154Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:51:31.289Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T07:54:29.486Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T07:54:29.676Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T07:54:29.690Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T07:54:29.697Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T08:24:59.663Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T09:20:49.232Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T09:20:49.434Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T09:20:49.450Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T09:20:49.457Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-14T09:22:28.062Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T09:22:28.248Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-14T09:22:28.255Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-14T09:22:28.262Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T01:49:59.962Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:02:41.789Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:06:46.502Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:06:47.999Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:07:35.594Z"}
+{"message":"listenning on port: 6000","level":"info","timestamp":"2021-07-15T02:15:06.682Z"}
+{"message":"listenning on port: 6000","level":"info","timestamp":"2021-07-15T02:15:46.651Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:17:03.921Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:19:33.581Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:20:47.833Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:21:04.337Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:21:04.614Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:21:04.627Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T02:21:04.633Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:22:06.156Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:22:06.349Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:22:06.356Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T02:22:06.362Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:22:40.983Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:22:41.171Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:22:41.178Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T02:22:41.183Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:33:49.387Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:33:49.580Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:33:49.587Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T02:33:49.594Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:38:58.143Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:38:58.321Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:38:58.328Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T02:38:58.334Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:41:24.037Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:41:24.216Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:41:24.223Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T02:41:24.230Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:45:45.133Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:46:51.321Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:47:27.979Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:47:28.173Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:47:28.186Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T02:47:28.192Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:53:59.804Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:53:59.994Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:54:00.007Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T02:54:00.015Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:55:48.710Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:55:48.904Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:55:48.911Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T02:55:48.917Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T02:58:00.497Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:58:00.682Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T02:58:00.695Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T02:58:00.701Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:02:18.391Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:03:32.575Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:03:44.411Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:03:44.585Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:03:44.592Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T03:03:44.598Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:05:22.527Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:05:22.712Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:05:22.726Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T03:05:22.732Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:06:41.971Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:06:42.150Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:06:42.157Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T03:06:42.163Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:07:37.771Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:07:37.951Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:07:37.959Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T03:07:37.965Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:08:12.222Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:08:12.397Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:08:12.404Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T03:08:12.411Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:09:01.564Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:09:01.750Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:09:01.763Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T03:09:01.769Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:12:52.548Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:12:52.725Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:12:52.732Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T03:12:52.739Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:14:49.164Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:14:49.340Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:14:49.347Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T03:14:49.354Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:15:50.651Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:15:50.830Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:15:50.837Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T03:15:50.843Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:22:05.829Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:22:06.025Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:22:06.037Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T03:22:06.043Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:23:11.742Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:23:11.928Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:23:11.941Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T03:23:11.947Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:24:19.459Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:25:47.260Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:25:53.584Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-15T03:26:01.447Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:26:01.633Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-15T03:26:01.646Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-15T03:26:01.652Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T03:22:42.083Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:22:42.296Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:22:42.317Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T03:22:42.331Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T03:39:41.642Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:39:41.821Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:39:41.828Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T03:39:41.835Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T03:40:52.312Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:40:52.500Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:40:52.515Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T03:40:52.521Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T03:41:44.812Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:41:44.998Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:41:45.013Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T03:41:45.020Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T03:44:14.525Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:44:14.755Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:44:14.763Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T03:44:14.769Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T03:44:42.476Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:44:42.720Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:44:42.727Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T03:44:42.733Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T03:47:49.245Z"}
+{"message":"\"password\" with value \"NewPass1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-07-16T03:49:44.169Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T03:56:46.742Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:56:46.922Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:56:46.929Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T03:56:46.936Z"}
+{"message":"\"password\" with value \"NewPassword1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-07-16T03:56:47.168Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T03:58:42.583Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:58:42.766Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T03:58:42.773Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T03:58:42.781Z"}
+{"message":"\"password\" with value \"NewPassword1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-07-16T03:58:45.043Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:01:08.492Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:01:08.675Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:01:08.684Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:01:08.690Z"}
+{"message":"\"password\" with value \"NewPassword1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-07-16T04:01:10.939Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:02:47.853Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:02:48.038Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:02:48.051Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:02:48.058Z"}
+{"message":"\"password\" with value \"NewPassword1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-07-16T04:02:50.304Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:04:00.136Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:04:00.315Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:04:00.322Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:04:00.329Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:07:30.584Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:07:30.763Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:07:30.772Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:07:30.779Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:08:57.302Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:08:57.490Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:08:57.504Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:08:57.511Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:11:19.273Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:11:19.454Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:11:19.461Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:11:19.468Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:11:49.670Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:11:49.845Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:11:49.853Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:11:49.859Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:12:46.265Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:12:46.454Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:12:46.469Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:12:46.475Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:13:22.617Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:13:22.800Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:13:22.814Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:13:22.820Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:15:10.307Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:15:10.492Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:15:10.505Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:15:10.511Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:16:28.132Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:16:28.313Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:16:28.326Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:16:28.332Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:17:17.209Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:17:17.386Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:17:17.393Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:17:17.402Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:18:30.906Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:18:31.084Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:18:31.091Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:18:31.098Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:20:06.703Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:20:06.888Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:20:06.902Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:20:06.909Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:22:35.632Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:22:35.808Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:22:35.815Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:22:35.821Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:30:19.360Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:30:19.546Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:30:19.553Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:30:19.561Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:31:05.159Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:31:05.349Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:31:05.363Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:31:05.369Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:33:28.331Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:33:28.514Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:33:28.521Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:33:28.527Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:34:23.790Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:34:23.975Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:34:23.989Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:34:23.996Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:36:00.214Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:36:00.395Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:36:00.403Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:36:00.409Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:38:35.865Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:39:37.277Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:39:51.125Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:39:51.307Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:39:51.321Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:39:51.328Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:45:05.930Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:45:06.114Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:45:06.128Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:45:06.134Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:46:03.334Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:46:03.520Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:46:03.535Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:46:03.541Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T04:47:29.223Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:47:29.409Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T04:47:29.423Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T04:47:29.429Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T06:08:09.676Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T06:08:10.378Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T06:08:10.388Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T06:08:10.396Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T06:18:08.586Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T06:18:08.773Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T06:18:08.786Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T06:18:08.793Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T07:19:04.001Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T07:19:04.199Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T07:19:04.212Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T07:19:04.218Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T07:19:37.612Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T07:19:37.797Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T07:19:37.809Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T07:19:37.817Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T10:24:49.416Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T10:24:50.418Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T10:24:50.426Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T10:24:50.432Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T10:31:23.825Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T10:31:24.006Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T10:31:24.013Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T10:31:24.020Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T10:32:06.161Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T10:32:06.350Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T10:32:06.364Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T10:32:06.371Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T10:38:37.898Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T10:38:38.074Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T10:38:38.082Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T10:38:38.088Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T10:50:27.434Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T10:50:27.618Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T10:50:27.626Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T10:50:27.633Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T10:54:15.491Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T10:54:15.686Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T10:54:15.698Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T10:54:15.704Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T11:22:03.654Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:22:03.724Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:22:03.747Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T11:22:03.753Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T11:35:59.892Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:35:59.971Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:35:59.984Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T11:35:59.991Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T11:37:17.128Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:37:17.196Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:37:17.210Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T11:37:17.217Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T11:40:18.573Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:40:18.640Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:40:18.654Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T11:40:18.660Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T11:47:44.417Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:47:44.568Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:47:44.577Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T11:47:44.582Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T11:49:29.407Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:49:29.557Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:49:29.564Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T11:49:29.570Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T11:51:37.427Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:51:37.574Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:51:37.582Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T11:51:37.587Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T11:54:25.903Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:54:26.059Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:54:26.065Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T11:54:26.070Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T11:57:44.610Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:57:44.769Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:57:44.782Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T11:57:44.791Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T11:59:52.312Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:59:52.465Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T11:59:52.473Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T11:59:52.478Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:04:36.254Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:04:36.420Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:04:36.432Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:04:36.437Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:05:01.675Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:05:01.817Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:05:01.826Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:05:01.835Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:06:10.942Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:06:11.100Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:06:11.112Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:06:11.118Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:07:05.982Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:07:06.144Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:07:06.156Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:07:06.162Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:07:35.834Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:07:35.990Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:07:35.996Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:07:36.003Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:10:27.390Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:10:27.539Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:10:27.551Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:10:27.563Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:16:36.387Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:16:36.537Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:16:36.544Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:16:36.550Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:21:37.908Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:21:37.972Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:21:37.986Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:21:37.997Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:22:24.831Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:22:24.896Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:22:24.911Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:22:24.916Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:26:17.235Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:26:17.302Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:26:17.316Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:26:17.322Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:27:33.310Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:27:33.377Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:27:33.392Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:27:33.397Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:30:22.904Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:30:22.974Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:30:22.993Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:30:23.000Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:31:07.797Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:31:07.868Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:31:07.888Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:31:07.893Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:42:40.971Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:42:43.003Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:42:45.015Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:42:47.018Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:49:16.155Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:49:16.304Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:49:16.318Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:49:16.328Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:49:47.556Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:49:47.702Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:49:47.713Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:49:47.721Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:50:17.785Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:50:17.946Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:50:17.958Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:50:17.964Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:50:53.564Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:50:53.725Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:50:53.738Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:50:53.743Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:51:35.948Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:51:36.093Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:51:36.098Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:51:36.105Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:52:53.535Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:52:53.688Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:52:53.694Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:52:53.700Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:53:39.212Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:53:39.368Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:53:39.380Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:53:39.385Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:54:14.238Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:54:14.388Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:54:14.401Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:54:14.416Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:57:07.104Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:57:07.263Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:57:07.276Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:57:07.282Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:57:29.683Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:57:29.836Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:57:29.843Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:57:29.849Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T12:58:03.037Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:58:03.194Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T12:58:03.201Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T12:58:03.206Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T13:02:37.965Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T13:02:38.130Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T13:02:38.138Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T13:02:38.154Z"}
+{"message":"listenning on port: 3000","level":"info","timestamp":"2021-07-16T13:04:43.755Z"}
+{"message":"\"firstName\" with value \"vivek\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T13:04:43.988Z"}
+{"message":"\"lastName\" with value \"patil\" fails to match the required pattern: /^[A-Z]{1}[A-Za-z]{2,}/","level":"error","timestamp":"2021-07-16T13:04:43.995Z"}
+{"message":"\"email\" with value \"patilgmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-07-16T13:04:44.001Z"}

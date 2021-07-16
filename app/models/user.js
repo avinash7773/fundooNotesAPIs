@@ -38,7 +38,6 @@ const userSchema =  new mongoose.Schema({
     unique : true,
     validator : "^[A-Z]{1}[A-Za-z]{2,}"},
     
-
   lastName : {
     type : String,
     required : true,
@@ -94,7 +93,6 @@ const Schema = mongoose.model('userSchemaModel', userSchema);
 
       //to save the new user
       user.save((err, data) => {
-        console.log("in save");
         return err ? callback(err, null) : callback(null, data);
       });
       } catch (err) {
