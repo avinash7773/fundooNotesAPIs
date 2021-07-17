@@ -16,8 +16,8 @@ chai.use(chaiHTTP);
  * @description Test case for registering new user.
  *              Contains both positive and negative cases.
  */
-  describe('POST', () => {
-    it('givenData_whenValid', (done) => {
+  describe('POST - Register User', () => {
+    it('RegisterUser_WhenValidgivenDetails_ShouldReturnTrue', (done) => {
       const userDetails = userInput.registerUserPass;
       chai
         .request(server)
@@ -36,7 +36,7 @@ chai.use(chaiHTTP);
       });
     });
   
-    it('givenData_whenFirstNameIsInValid_shouldReturnError', (done) => {
+    it('RegisterUser_whenFirstNameIsInValid_shouldReturnFalse', (done) => {
     const userDetails = userInput.registerUserFirstNameFail1;
     chai
       .request(server)
@@ -58,7 +58,7 @@ chai.use(chaiHTTP);
       });
   });
 
-  it('givenData_whenLastNameIsInValid_shouldReturnError', (done) => {
+  it('RegisterUser_whenLastNameIsInValid_shouldReturnFalser', (done) => {
     const userDetails = userInput.registerUserLastNameFail2;
     chai
       .request(server)
@@ -80,7 +80,7 @@ chai.use(chaiHTTP);
       });
   });
  
-  it('givenData_whenEmailIsInValid_shouldReturnError', (done) => {
+  it('RegisterUser_whenEmailIsInValid_shouldReturnFalse', (done) => {
     const userDetails = userInput.registerUserEmailFail;
     chai
       .request(server)
@@ -107,7 +107,7 @@ chai.use(chaiHTTP);
  *               Contains positive and negative scenarios.
  */
 describe('POST - User Login', () => {
-      it('givenLoginDetails_whenValidEmailAndValidPassword', (done) =>{
+      it('LogIn_whenValidEmailAndValidPassword_ShouldReturnTrue', (done) =>{
         const userCredentials = userInput.userLoginPass;
         chai
           .request(server)
@@ -124,7 +124,7 @@ describe('POST - User Login', () => {
         })
       })
  
-     it('givenLoginDetails_whenInValidEmailAndValidPassword_shouldReturnError', (done) => {
+     it('LogIn_whenInValidEmailAndValidPassword_shouldReturnFalse', (done) => {
         const userCredentials = userInput.userLoginWrongEmailFail;
         chai
           .request(server)
@@ -141,7 +141,7 @@ describe('POST - User Login', () => {
         });
       });
 
-      it('givenDetails_whenValidEmailAndInValidPassword_shouldReturnError', (done) => {
+      it('LogIn_whenValidEmailAndInValidPassword_shouldReturnFalse', (done) => {
         const userCredentials = userInput.userLoginWrongPasswordFail;
         chai
           .request(server)
@@ -164,7 +164,7 @@ describe('POST - User Login', () => {
  *                
  */
 describe('Post-ForgotPassword', () =>{
-  it('givenDetails_whenValidEmail', (done) => {
+  it('ForgotPassword_WhenValidEmail_ShouldReturnTrue', (done) => {
     const email = userInput.userForgotPasswordPass;
     chai
       .request(server)
@@ -180,7 +180,7 @@ describe('Post-ForgotPassword', () =>{
       });
   })
 
-  it('givenDetails_whenInValidEmail', (done) => {
+  it('ForgotPassword_WhenInValidEmail_ShouldReturnFalse', (done) => {
     const email = userInput.userForgotPasswordFail;
     chai
       .request(server)
@@ -196,7 +196,7 @@ describe('Post-ForgotPassword', () =>{
       }); 
   });
   
-  it('givenDetails_EmailUserIsNotRegister', (done) => {
+  it('ForgotPassword_WhenUserNotRegisterWithgivenEmail_ShouldReturnFalse', (done) => {
     const email = userInput.userForgotPasswordFail1
     chai
       .request(server)
@@ -215,7 +215,7 @@ describe('Post-ForgotPassword', () =>{
 })
 
 describe('Post-ResetPassword', () => {
-  it('givenDetails_whenValidNewPasswordAndValidToken',  () => {
+  it('ResetPassword_WhenValidPasswordAndValidToken_ShouldReturnTrue',  () => {
     let password = userInput.userForgotPasswordPass;
     let inputToken = userInput.userResetPasswordToken;
     chai
@@ -233,7 +233,7 @@ describe('Post-ResetPassword', () => {
       });
   })
 
-  it('givenDetails_whenInValidNewPasswordAndValidToken',  () => {
+  it('ResetPassword_WhenInvalidPasswordAndValidToken_shouldReturnFalse',  () => {
     let password = userInput.userForgotPasswordPass;
     let inputToken = userInput.userResetPasswordToken;
     chai
@@ -252,7 +252,7 @@ describe('Post-ResetPassword', () => {
     });
   })
 
-  it('givenDetails_whenValidNewPasswordAndInValidToken',  () => {
+  it('ResetPassword_WhenValidPasswordandInvalidToken_shouldReturnFalse',  () => {
     let password = userInput.userForgotPasswordPass;
     let inputToken = userInput.userResetPasswordWrongToken;
     chai
